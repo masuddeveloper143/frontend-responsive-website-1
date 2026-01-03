@@ -3,6 +3,10 @@
 
 }
 
+body {
+    background-color: rgba(241, 241, 243, 1);
+}
+
 .nav-container {
     height: auto 100px;
     max-width: 1280px;
@@ -107,12 +111,59 @@
 .Pillars {
     max-width: 1280px;
     margin: 80px auto;
+    color: rgba(14, 14, 14, 1);
+    font-family: Fira Sans;
+    font-style: Bold;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 
 .Pillars h1 {
     margin: 0;
+}
+
+.crad {
+    height: 244px;
+    max-width: 1280px;
+    margin: 0 auto;
+    /* background-color: aqua; */
+}
+
+.crad-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.crad-bx {
+    /* Frame 2087325495 */
+    width: 302px;
+    height: 244px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24;
+    padding: 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-color: white;
 
 
+}
 
-
+.crad-bx p {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-style: Regular;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0;
 }
