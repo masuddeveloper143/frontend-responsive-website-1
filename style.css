@@ -45,9 +45,60 @@
 }
 
 .hero-containt {
+    display: flex;
+    align-items: center;
     max-width: 1280px;
     height: 560px;
     margin: auto;
     border-radius: 24px;
     background: rgba(198, 228, 214, 1);
+
 }
+
+.hero-containt-titel {
+    padding: 80px 100px 80px 50px;
+}
+
+.hero-containt-titel h1 {
+    width: 622px;
+    color: rgba(14, 14, 14, 1);
+    font-family: Fira Sans;
+    font-style: Bold;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.hero-containt-titel p {
+    color: rgba(14, 14, 14, 0.5);
+
+    font-family: Fira Sans;
+    font-style: Medium;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.hero-containt-btn {
+    /* Frame 2 */
+    width: 270px;
+    height: 56px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 48;
+    padding: 17px 34px 17px 34px;
+    color: aliceblue;
+    border-radius: 8px;
+    background: rgba(0, 106, 80, 1);
+}
+
+/* header section complet] */
+
+/* strat main section */
