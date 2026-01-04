@@ -46,6 +46,23 @@ body {
     border: 1px solid rgba(0, 106, 80, 1);
     border-radius: 8px;
     color: rgba(0, 106, 80, 1);
+
+}
+
+.crad-bx-2 p {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+button:hover {
+    background-color: blue;
+    color: white;
 }
 
 .hero-containt {
@@ -58,6 +75,12 @@ body {
     background: rgba(198, 228, 214, 1);
 
 }
+
+
+.hero-containt-btn {
+    border: none;
+}
+
 
 .hero-containt-titel {
     padding: 80px 100px 80px 50px;
@@ -156,8 +179,13 @@ body {
 
 }
 
+
+.crad-bx:hover {
+    background-color: hwb(161 48% 32% / 0.5);
+}
+
 .crad-bx p {
-    color: rgba(14, 14, 14, 0.7);
+    color: rgba(152, 138, 138, 0.7);
     font-family: Fira Sans;
     font-style: Regular;
     font-size: 18px;
@@ -238,8 +266,26 @@ body {
     margin-top: 32px;
 }
 
+.crad-bx p {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
 
-.crad-bx-1 {
+.button:hover {
+    background-color: hwb(161 48% 32% / 0.5);
+}
+
+.crad-bx:hover {
+    background-color: hwb(161 48% 32% / 0.5);
+}
+
+.crad-bx-2:hover {
     background: rgba(84, 144, 245, 0.2);
 }
 
@@ -299,6 +345,17 @@ body {
 
 }
 
+.discription-container {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
 .p-1 {
 
     width: 1232px;
@@ -343,6 +400,10 @@ body {
     width: 1216px;
 }
 
+.Questions-bx:hover {
+    background: hwb(73 7% 24% / 0.2);
+}
+
 .Questions-bx {
     height: 72px;
     display: flex;
@@ -363,8 +424,12 @@ body {
     gap: 24;
     padding: 24px;
     box-sizing: border-box;
-    border: 1px solid rgba(14, 14, 14, 0.15);
+    border: 1px solid rgba(255, 248, 248, 0.664);
     /* background: rgba(198, 228, 214, 1); */
+}
+
+.Select:hover {
+    background: rgba(144, 145, 147, 0.2);
 }
 
 .agree {
@@ -402,6 +467,11 @@ body {
     background: rgba(9, 161, 92, 0.15);
 }
 
+
+.agree select:hover {
+    background: rgba(211, 182, 16, 0.397);
+}
+
 .recent {
     max-width: 1280px;
     margin: 80px auto;
@@ -418,12 +488,19 @@ body {
     text-align: left;
 }
 
+
+
 .main-crad {
     height: 1254 auto;
     max-width: 1280px;
     margin: 10px auto;
 
 
+}
+
+.main-crad button:hover {
+    background-color: rgb(10, 10, 232);
+    color: white;
 }
 
 .main-crad-item-container {
@@ -450,6 +527,7 @@ body {
     border-radius: 24px;
 
 }
+
 
 .crad-container-1-text {
     /* Frame 2087325507 */
@@ -484,6 +562,10 @@ body {
 .crad-container-1-text img {
     width: 134px;
     height: 40px;
+}
+
+.crad-container-1-text img:hover {
+    color: aliceblue;
 }
 
 .crad-container-1-text p {
@@ -546,6 +628,10 @@ body {
 
 }
 
+.m-b-1:hover {
+    border: 1px solid green;
+}
+
 
 
 .m-b-1 {
@@ -599,6 +685,10 @@ body {
     background: rgba(255, 255, 255, 1);
 }
 
+.Other-bx:hover {
+    background-color: beige;
+}
+
 .Other-bx p {
     color: rgba(14, 14, 14, 0.3);
 
@@ -649,6 +739,16 @@ body {
 
 }
 
+.footer-itm p {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
 
 
 
@@ -663,6 +763,11 @@ body {
     outline: none;
 }
 
+
+.subscribe-box input:hover {
+    border: 1px solid green;
+}
+
 .subscribe-box button {
     padding: 12px 50px;
     border: none;
@@ -675,4 +780,43 @@ body {
 
 .subscribe-box button:hover {
     background-color: #095c43;
+}
+
+.last {
+
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 226px;
+    background-color: white;
+}
+
+.last p {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.last-im {
+    width: 200px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 30px;
+
+}
+
+.last-im:hover {
+    border: 1px solid green;
+    border-radius: 10px;
 }
