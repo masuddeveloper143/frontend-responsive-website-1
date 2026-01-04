@@ -167,3 +167,253 @@ body {
     text-align: left;
     margin: 0;
 }
+
+.Vision {
+    max-width: 1280px;
+    margin: 80px auto;
+}
+
+
+.Vision p {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* crad 2 design strat */
+
+.crad-2 {
+    height: 325px;
+    max-width: 1280px;
+    margin: 0 auto;
+    /* background-color: aqua; */
+
+}
+
+.crad-container-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.crad-bx-2 {
+    /* Frame 2087325495 */
+    width: 410.67px;
+    height: 325px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24;
+    padding: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-color: white;
+}
+
+
+.crad-bx-2 button {
+    /* Frame 2 */
+    width: 122px;
+    height: 41px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 48;
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    margin: 0;
+    margin-top: 32px;
+}
+
+
+.crad-bx-1 {
+    background: rgba(84, 144, 245, 0.2);
+}
+
+.crad-bx-4 {
+    background: rgba(198, 228, 214, 1);
+}
+
+.crad-bx-3 {
+    background: rgba(247, 235, 207, 1);
+}
+
+
+
+.bt-1 {
+    background: rgba(84, 144, 245, 1);
+}
+
+.bt-2 {
+    background: rgba(9, 161, 92, 1);
+}
+
+.bt-3 {
+    background: rgba(255, 194, 57, 1);
+}
+
+
+
+.discription {
+    height: 256px;
+    max-width: 1280px;
+    margin: 32px auto;
+    background-color: white;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+
+}
+
+.discription-container {
+    /* Frame 2087325495 */
+    width: 1280px;
+    height: 256px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24;
+    padding: 48px 24px 48px 24px;
+
+    background-image: url('./assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: 24px 44px;
+    background-size: 64px;
+
+
+}
+
+.p-1 {
+
+    width: 1232px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.p-2 {
+    color: rgba(14, 14, 14, 0.8);
+    margin: 0;
+    margin-top: 10px;
+}
+
+.discription-container h4 {
+    margin: 0;
+}
+
+
+.Your-Opinion {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.Questions {
+    height: 409px;
+    max-width: 1280px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+
+}
+
+.Questions-container {
+    padding: 32px;
+    height: 345px;
+    width: 1216px;
+}
+
+.Questions-bx {
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24;
+    padding: 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(198, 228, 214, 1);
+}
+
+.Select-bx {
+    height: 92px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24;
+    padding: 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    /* background: rgba(198, 228, 214, 1); */
+}
+
+.agree {
+    /* Frame 2087325497 */
+    width: 200px;
+    height: 92px;
+    /* Auto layout */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24;
+    padding: 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(255, 255, 255, 0.1);
+
+}
+
+.agree select {
+    /* Frame 2087325499 */
+    width: 152px;
+    height: 44px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12;
+    padding: 10px 14px 10px 14px;
+
+
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 1);
+    border-radius: 4px;
+    background: rgba(9, 161, 92, 0.15);
+}
+
+.recent {
+    max-width: 1280px;
+    margin: 80px auto;
+}
+
+.recent-container p {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
