@@ -419,7 +419,7 @@ body {
 }
 
 .main-crad {
-    height: 1254px;
+    height: 1254 auto;
     max-width: 1280px;
     margin: 10px auto;
 
@@ -497,4 +497,65 @@ body {
     text-align: left;
 }
 
-.main-crad-2 {}
+.donate-today-main-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.donate-today-main-box-container {
+
+
+    height: 464px;
+    max-width: 1280px;
+    margin: 80px auto;
+}
+
+.money {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 32px;
+}
+
+.money-bx {
+    /* Frame 2087325514 */
+    width: 1071px;
+    height: 128px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    gap: 24;
+
+
+}
+
+
+
+.m-b-1 {
+    /* Frame 2087325513 */
+    width: 240px;
+    height: 128px;
+    /* Auto layout */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+
+}
+
+.money-bx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+}
